@@ -1,0 +1,27 @@
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).absolute().expanduser().parent
+STATIC_DIR = ROOT_DIR / 'static'
+
+
+BLOCK_INFO_INDEX = ""
+BLOCK_INFO_DOC_TYPE = ""
+
+BLOCK_QA_PAIR_INDEX = ""
+
+BLOCK_KNOWLEDGE_INDEX = ""
+
+TS_TOKEN = ""
+
+MONGODB_HOST = ''
+MONGODB_PORT = 10017
+MONGODB_USER = ''
+MONGODB_PWD = ''
+BI_MONGODB_HOST = ''
+BI_MONGODB_PORT = 55119
+
+IDC_PHOTO_DIR = ""
+JIEBA_WORD_DICT = STATIC_DIR / '.txt'
+
+JIEBA_WORD_DICTNEW = STATIC_DIR / '.txt'
+FONT_PATH = STATIC_DIR / ".ttf"
