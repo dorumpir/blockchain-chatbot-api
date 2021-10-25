@@ -1,0 +1,13 @@
+flask
+Flask-Elasticsearch
+snownlp
+matplotlib<=1.5.3
+tushare
+pymongo
+bs4
+requests
+jieba
+wordcloud
+gevent
+grequests
+Flask-APScheduler
